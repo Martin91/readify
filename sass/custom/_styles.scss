@@ -326,14 +326,16 @@ body {
       margin-bottom: 7.640px;
       margin-bottom: 0.382rem;
     
-      a, a:hover { 
+      a, a:hover {
+        font-family: $header-subtitle-font-family;
         color: $text-color; 
       }
     }
   
     h2 { 
       @extend .font-size-large;
-      @extend .sans-serif-font;
+      // @extend .sans-serif-font;
+      font-family: $header-subtitle-font-family;
       color: $secondary-text-color;
     }
   }
